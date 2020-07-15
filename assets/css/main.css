@@ -141,7 +141,7 @@ input, select, textarea {
 		font-weight: 700;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
-		margin-bottom: 1em;
+		/*margin-bottom: 1em;*/
 		text-transform: uppercase;
 		text-align: center;
 	}
@@ -2654,6 +2654,7 @@ input, select, textarea {
 			padding: 3.5em;
 			vertical-align: middle;
 			width: 48%;
+			padding-top: 0em;
 		}
 
 			.feature .content h3 {
@@ -3302,3 +3303,23 @@ input, select, textarea {
 				}
 
 	}
+
+.label {
+	border: 0 solid transparent;
+	border-radius: .28571429rem;
+	background-color: #1b1c1d;
+	color: #ffffff;
+	padding: .3833em .633em;
+	font-size: .64285714rem;
+	margin-left: .14285714em;
+	margin-right: .14285714em;
+	margin-top: -0.14285714em;
+}
+
+.label.since {
+	background-color: rgb(127, 1, 61);
+}
+
+.label-list {
+	line-height: 1.3rem;
+}
